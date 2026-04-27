@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+
+    <style>
+         /* Background image */
+        body {
+            margin: 0;
+            font-family: Arial;
+            height: 100vh;
+
+            background: url("{% static 'image/navy.svg' %}") no-repeat center center fixed;
+            
+           background-size: 460px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Dark overlay for better visibility */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            z-index: 0;
+        }
+
+        /* Register box */
+        .register-box {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+           background: #0056b3;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .msg {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="register-box">
+
+        <h2>Register</h2>
+
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Username"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+            <button type="submit">Register</button>
+        </form>
+
+        <p><a href="/login/">Already have account? Login</a></p>
+
+        {% for message in messages %}
+            <p class="msg">{{ message }}</p>
+        {% endfor %}
+
+    </div>
+
+</body>
+</html>

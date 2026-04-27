@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+
+<div style="text-align:center; margin-top:30px;">
+    <h1>About</h1>
+</div>
+
+<div style="width:60%; margin:auto; margin-top:20px;">
+
+    {% if about_data %}
+        <div style="background:white; padding:25px; border-radius:10px;">
+
+            <h2>{{ about_data.title }}</h2>
+
+            <!-- DESCRIPTION -->
+            <div class="content-box">
+                {{ about_data.description|linebreaks }}
+            </div>
+
+            <!-- MISSION -->
+            {% if about_data.mission %}
+                <h3>Mission</h3>
+                <div class="content-box">
+                    {{ about_data.mission|linebreaks }}
+                </div>
+            {% endif %}
+
+            <!-- VISION -->
+            {% if about_data.vision %}
+                <h3>Vision</h3>
+                <div class="content-box">
+                    {{ about_data.vision|linebreaks }}
+                </div>
+            {% endif %}
+
+        </div>
+    {% else %}
+        <p>No about content added yet.</p>
+    {% endif %}
+
+</div>
+
+{% endblock %}
