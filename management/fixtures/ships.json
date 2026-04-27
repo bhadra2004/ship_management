@@ -1,0 +1,80 @@
+[
+{
+  "model": "management.ship",
+  "pk": 4,
+  "fields": {
+    "name": "INS Vikramaditya",
+    "capacity": "34 aircraft (MiG-29K fighters + helicopters)",
+    "country": "Originally Russia (refitted for India)",
+    "status": "Active",
+    "image": "image/INS.jpg",
+    "manufactured_date": "2013-11-16",
+    "history": "INS Vikramaditya's story actually begins in the Soviet era. It was originally built as Admiral Gorshkov in the 1980s for the Soviet Navy. After the collapse of the Soviet Union in 1991, Russia found it expensive to maintain large warships, and the vessel was eventually decommissioned.\n\nIn the early 2000s, India—looking to strengthen its naval aviation—signed a deal with Russia to acquire and rebuild the ship. The agreement (2004) included extensive refurbishment, converting it from a hybrid cruiser-carrier into a full STOBAR aircraft carrier (Short Take-Off But Arrested Recovery).\n\nHowever, the refit became one of the most complex naval upgrade projects in history:\n\nCosts increased significantly beyond initial estimates\nDelivery was delayed multiple times due to technical challenges\nMajor systems like boilers and flight deck required redesign\n\nAfter years of trials and modifications, the ship was finally commissioned into the Indian Navy in 2013.\n\nStrategic Importance (Expanded)\nHelped India maintain continuous aircraft carrier capability\nStrengthened India's presence in the Indian Ocean Region\nPlayed a key role in training naval aviators for carrier operations\nActs as the core of a Carrier Battle Group (CBG)\nKey part of India's carrier battle group"
+  }
+},
+{
+  "model": "management.ship",
+  "pk": 5,
+  "fields": {
+    "name": "INS Vikrant",
+    "capacity": "~30+ aircraft",
+    "country": "India-Cochin Shipyard Limited (Kochi, Kerala)",
+    "status": "Active",
+    "image": "image/IAC1_Vikrant_at_Cochin.jpg",
+    "manufactured_date": "2022-09-02",
+    "history": "Detailed History\n\nINS Vikrant (IAC-1) represents one of India's most ambitious defence projects. The idea of building an indigenous aircraft carrier was proposed in the late 1990s, but actual construction began in 2009 at\nCochin Shipyard Limited in Kochi.\n\nThe project faced multiple challenges:\n\nDelays in procurement of steel and technology\nDesign complexities (India had no prior experience building carriers)\nBudget and timeline extensions\n\nDespite this, India developed significant domestic capability:\n\nIndigenous warship-grade steel (by Steel Authority of India Limited)\nAdvanced combat systems integration\nIndigenous aviation facilities\n\nSea trials began in 2021, and the ship was officially commissioned in 2022 by Narendra Modi.\n\nStrategic Importance \nMarks India's entry into an elite group of nations that can design and build aircraft carriers\nBoosts Atmanirbhar Bharat (self-reliance in defence)\nProvides long-term independence from foreign suppliers\nStrengthens maritime dominance in the Indo-Pacific"
+  }
+},
+{
+  "model": "management.ship",
+  "pk": 6,
+  "fields": {
+    "name": "INS Arihant",
+    "capacity": "~95–100 crew",
+    "country": "India-Shipbuilding Centre, Visakhapatnam",
+    "status": "Active",
+    "image": "image/3rd-Arihant-Submarine.jpg",
+    "manufactured_date": "2016-08-01",
+    "history": "INS Arihant is the result of decades of secret development under India's Advanced Technology Vessel (ATV) Project, which began in the 1970s. The project received major momentum in the 1990s with technical assistance from Russia.\n\nKey milestones:\n\nLaunched in 2009 in Visakhapatnam\nUnderwent years of nuclear reactor testing and sea trials\nOfficially commissioned in 2016\n\nThe submarine uses a nuclear reactor, allowing it to stay submerged for months without surfacing.\n\nMost importantly, Arihant completed India's nuclear triad, which includes:\n\nLand-based missiles\nAir-delivered weapons\nSea-based nuclear weapons\nStrategic Importance \nProvides credible second-strike capability (even after a nuclear attack)\nEnsures deterrence stability\nOperates in stealth, making detection extremely difficult\nOne of India's most classified and secure defence assets"
+  }
+},
+{
+  "model": "management.ship",
+  "pk": 7,
+  "fields": {
+    "name": "INS Kolkata",
+    "capacity": "330 personnel",
+    "country": "India-Mazagon Dock Shipbuilders Limited (Mumbai)",
+    "status": "Active",
+    "image": "image/201117-N-NC885-1128_(cropped).jpg",
+    "manufactured_date": "2014-01-01",
+    "history": "INS Kolkata is the lead ship of the Kolkata-class destroyers (Project 15A). Built at\nMazagon Dock Shipbuilders Limited in Mumbai, it reflects India's growing capability in building large warships.\n\nConstruction began in the early 2000s, but the ship faced:\n\nDelays due to technology integration\nCost overruns\nComplexity in modern weapon systems\n\nIt was finally commissioned in 2014.\n\nThe ship incorporates:\n\nStealth features to reduce radar detection\nAdvanced radar systems (like MF-STAR)\nLong-range missiles including BrahMos\n Strategic Importance \nActs as a multi-role combat platform\nProvides air defence, anti-ship, and anti-submarine warfare\nProtects carrier groups and naval assets\nOne of the most heavily armed destroyers in the Indian Navy"
+  }
+},
+{
+  "model": "management.ship",
+  "pk": 8,
+  "fields": {
+    "name": "INS Visakhapatnam",
+    "capacity": "300+ personnel",
+    "country": "India-Mazagon Dock, Mumbai",
+    "status": "Active",
+    "image": "image/Visakhapatnam_(D66)_-_P15B_destroyer_of_Indian_Navy.jpg",
+    "manufactured_date": "2021-01-01",
+    "history": "Detailed History\n\nINS Visakhapatnam is the lead ship of the advanced Project 15B destroyers, an upgraded version of the Kolkata class.\n\nBuilt again at Mazagon Dock Shipbuilders Limited, the ship incorporates major improvements:\n\nBetter stealth design\nAdvanced electronic warfare systems\nImproved automation\n\nThe ship was commissioned in 2021 and represents the next generation of Indian destroyers.\n\n Strategic Importance \nEquipped with BrahMos missile, one of the fastest cruise missiles in the world\nEnhanced survivability in modern warfare\nPlays a key role in network-centric warfare\nStrengthens India's blue-water navy capability"
+  }
+},
+{
+  "model": "management.ship",
+  "pk": 9,
+  "fields": {
+    "name": "INS Tabar",
+    "capacity": "180–200 crew",
+    "country": "Russia",
+    "status": "Active",
+    "image": "image/INS_Tabar_(F44)_with_Buayn_corvette_Zelenyy_Dol_(562)_during_INDRANAVY_2021_exercise.jpg",
+    "manufactured_date": "2004-05-01",
+    "history": "Detailed History\n\nINS Tabar is part of the Talwar-class frigates built in Russia and inducted into the Indian Navy in 2004.\n\nThe ship gained international attention during anti-piracy operations in the Gulf of Aden (2008). It successfully:\n\nEngaged and destroyed a pirate \"mother ship\"\nProtected Indian and international merchant vessels\n\nSince then, it has been actively deployed in:\n\nAnti-piracy patrols\nJoint naval exercises\nEscort missions\nStrategic Importance \nProven combat experience in real-world missions\nVersatile in anti-air, anti-surface, and anti-submarine roles\nImportant for safeguarding international trade routes"
+  }
+}
+]
